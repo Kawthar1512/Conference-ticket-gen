@@ -3,7 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 nav {
-width: 1000px;
+/* width: 1000px; */
+width: 95%;
 max-width: 100%;
   /* width: 1200px; */
   border-radius: 30px;
@@ -14,6 +15,7 @@ max-width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 10px auto;
+  overflow: hidden;
 }
 
 .navImage {

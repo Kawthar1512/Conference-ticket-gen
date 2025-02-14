@@ -26,6 +26,8 @@ body {
       rgba(36, 160, 181, 0) 100%
     ),
     #02191d;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 input:-webkit-autofill,

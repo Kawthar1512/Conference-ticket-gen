@@ -123,6 +123,16 @@ opacity: 0.4;
 .file-uploader.uploaded span{
     opacity: 0;
 }
+.about-container{
+    border: 1px solid var(--color1);
+    width: 100%;
+    max-width: 654px;
+    background-color: #041e23 ;
+    padding: 48px;
+    margin: 40px auto;
+    border-radius: 40px;
+    color: var(--white);
+}
 
 .file-uploader.uploaded:hover span{
     opacity: 1;

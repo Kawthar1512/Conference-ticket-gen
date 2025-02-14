@@ -3,6 +3,7 @@ import svgImage from "../assets/Vector (1).svg";
 import "../styles/NavBar.css";
 import ticz from "../assets/ticz.svg";
 import arrow from "../assets/div.svg"
+import { Link } from "react-router";
 
 export default function Nav() {
   return (
@@ -18,7 +19,7 @@ export default function Nav() {
         <div className="nav-links">
           <a href="" className="first-link">Events</a>
           <a href="" className="second-link">My Tickets</a>
-          <a href="" className="third-link">About Project</a>
+          <Link to="/about" className="third-link">About Project</Link>
 
         </div>
         <a href="" className="my-ticket-btn">MY TICKETS <img src={arrow}alt="" /></a>
