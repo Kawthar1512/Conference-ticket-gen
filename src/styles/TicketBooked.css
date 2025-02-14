@@ -1,0 +1,203 @@
+#ticket-booked {
+    color: #fff;
+}
+
+#ticket-booked > h2 {
+    font-size: 32px;
+    text-align: center;
+    font-family: var(--Alatsi);
+}
+
+#ticket-booked > h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 300px;
+}
+
+#ticket-container {
+    width: 100%;
+    max-width: 300px;
+    background-image: url("./../assets/ticket-container.svg");
+    margin: auto;
+    margin-top: 48px;
+    padding: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ticket-container > section:first-child {
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid rgba(36, 160, 181, 1);
+    padding: 14px;
+    text-align: center;
+}
+
+#ticket-container > section:first-child section:first-child h3 {
+    font-size: 34px;
+    font-family: var(--RoadRage);
+}
+
+#ticket-container > section:first-child > section:first-child h5 {
+    font-size: 10px;
+}
+
+#ticket-container > section:first-child > section:nth-child(2) {
+    margin-top: 24px;
+}
+
+#ticket-container > section:first-child > section:nth-child(2) > div {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid rgba(36, 160, 181, 0.5);
+}
+
+#ticket-container > section:first-child > section:nth-child(2) > div > img {
+    width: 100%;
+    height: 100%;
+}
+
+#ticket-container > section:first-child > section:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    border: 1px solid rgba(19, 61, 68, 1);
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 24px;
+    text-align: left;
+    background-color: #08343d;
+}
+
+#ticket-container > section:first-child > section:nth-child(3) > section:not(:last-child) {
+    display: flex;
+    border-bottom: 1px solid rgba(18, 70, 78, 1);
+}
+
+#ticket-container > section:first-child > section:nth-child(3) > section > div:not(:only-child) {
+    width: 50%;
+    padding: 4px;
+}
+
+#ticket-container > section:first-child > section:nth-child(3) > section > div:first-child {
+    border-right: 1px solid rgba(18, 70, 78, 1);
+}
+
+#ticket-container > section:first-child > section:nth-child(3) > section > div:last-child {
+    padding-left: 8px;
+}
+
+
+#ticket-container > section:first-child > section:nth-child(3) > section > div:only-child {
+    padding: 6px;
+    border-right: none;
+    font-size: 10px;
+}
+
+#ticket-container > section:first-child > section:nth-child(3) > section > div h5 {
+    font-size: 10px;
+    color: #447fa2;
+}
+
+#ticket-container > section:first-child > section:nth-child(3) > section > div h4 {
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+#ticket-container > section:first-child > section:nth-child(3) > section:first-child > div h4 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#ticket-container > section:last-child {
+    width: 100%;
+    margin-top: 32px;
+}
+
+#ticket-container > section:last-child svg {
+    width: 100%;
+}
+
+#ticket-booked footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 42px;
+}
+
+#ticket-booked footer button:first-child {
+    margin-right: 16px;
+}
+
+#ticket-booked footer button:last-child {
+    margin-left: 16px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #ticket-container {
+        width: 100%;
+    }
+
+    #ticket-booked > h2 {
+        font-size: 24px;
+    }
+
+
+    #ticket-booked > h3 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #ticket-container {
+        padding: 16px;
+    }
+
+    #ticket-booked > h2 {
+        font-size: 24px;
+        
+    }
+
+
+    #ticket-booked > h3 {
+        font-size: 14px;
+    }
+
+    #ticket-container > section:first-child > section:nth-child(2) {
+        margin-top: 16px;
+    }
+
+    #ticket-container > section:first-child section:first-child h3 {
+        font-size: 24px; 
+    }
+
+    #ticket-container > section:first-child > section:nth-child(3) {
+        margin-top: 16px;
+    }
+
+    #ticket-container > section:first-child > section:nth-child(3) > section:first-child > div h4 {
+        font-size: 10px;
+    }
+    
+    #ticket-container > section:last-child {
+        margin-top: 16px;
+    }
+
+    #ticket-booked footer {
+        margin-top: 0px;
+        grid-template-columns: 1fr;
+    }
+
+    #ticket-booked footer button:first-child {
+        margin: 0px;
+        margin-bottom: 16px;
+    }
+
+    #ticket-booked footer button:last-child {
+        margin: 0px
+    }
+}
