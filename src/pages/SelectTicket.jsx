@@ -3,12 +3,13 @@ import { useState } from "react";
 import "../styles/SelectTicket.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import {useLocalStorage} from "./../hooks/useLocalStorage"
+import { useLocalStorage } from "./../hooks/useLocalStorage";
 import { useNavigate } from "react-router";
+import Button from "./../components/Button";
 
 function StepOne() {
   const [ticketInfo, setTicketInfo] = useLocalStorage("ticketInfo", {});
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const formik = useFormik({
     initialValues: {
@@ -21,7 +22,7 @@ function StepOne() {
     }),
     onSubmit: (values) => {
       setTicketInfo(values);
-      navigate("/upload")
+      navigate("/upload");
     },
   });
 
@@ -125,7 +126,13 @@ function StepOne() {
           {/* number of ticket */}
           <div className="number-of-tickets">
             <p>Number of tickets</p>
-            <select onChange={formik.handleChange} defaultValue={formik.values.numOfTickets} name="numOfTickets" id="" className="select-options">
+            <select
+              onChange={formik.handleChange}
+              defaultValue={formik.values.numOfTickets}
+              name="numOfTickets"
+              id=""
+              className="select-options"
+            >
               <option value={1}>1</option>
               <option value={2}>2</option>
               <option value={3}>3</option>
@@ -134,8 +141,8 @@ function StepOne() {
           </div>
           {/* for-buttons */}
           <div className="btn-container">
-            <button className="cancel-btn">Cancel</button>
-            <button type="submit" className="next-btn">Next</button>
+            <Button>Cancel</Button>
+            <Button type="submit" contained>Next</Button>
           </div>
         </form>
       </main>

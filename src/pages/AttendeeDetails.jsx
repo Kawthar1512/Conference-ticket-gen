@@ -7,6 +7,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useLocalStorage } from "./../hooks/useLocalStorage";
 import { useNavigate } from "react-router";
+import Button from "../components/Button";
 
 function AttendeeDetails() {
   const navigate = useNavigate();
@@ -108,12 +109,8 @@ function AttendeeDetails() {
 
             {/* for-buttons */}
             <div className="btn-container">
-              <button className="back" onClick={() => navigate(-1)}>
-                Back
-              </button>
-              <button type="submit" className="get-ticket">
-                Get my Free Ticket
-              </button>
+              <Button onClick={() => navigate(-1)}>Back</Button>
+            <Button type="submit" contained>Get my Free Ticket</Button>
             </div>
           </form>
         </div>
