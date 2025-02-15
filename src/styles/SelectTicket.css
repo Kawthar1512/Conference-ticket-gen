@@ -209,7 +209,20 @@ header {
    
   }
   .header-text {
-    display: block;
-    /* justify-content: space-between; */
+    flex-direction: column;
+   
+  }
+  .step1 {
+    margin-top: -20px;
+    
+  }
+  .progress-container {
+    
+    margin-top: 1000px;
+    background-color: red;
+  
+  }
+  .progress-bar{
+    margin-top: 30px;
   }
 }
