@@ -100,7 +100,8 @@
 
 #ticket-container > section:first-child > section:nth-child(3) > section > div h5 {
     font-size: 10px;
-    color: #447fa2;
+    opacity: 33%;
+    /* color: #447fa2; */
 }
 
 #ticket-container > section:first-child > section:nth-child(3) > section > div h4 {
