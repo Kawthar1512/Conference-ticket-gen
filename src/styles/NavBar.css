@@ -7,7 +7,7 @@ nav {
 width: 95%;
 max-width: 100%;
   /* width: 1200px; */
-  border-radius: 30px;
+  border-radius: 12px;
   height: 50px;
   border: 1px solid #197686;
   justify-content: space-around;
@@ -72,4 +72,19 @@ max-width: 100%;
   .nav-links {
     display: none;
   }
+  nav {
+   
+    width: 85%;
+    max-width: 100%;
+      /* width: 1200px; */
+      border-radius: 12px;
+      height: 50px;
+      border: 1px solid #197686;
+      justify-content: space-around;
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      margin: 10px auto;
+      overflow: hidden;
+    }
 }
