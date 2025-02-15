@@ -173,6 +173,13 @@ header {
   justify-content: space-around;
   margin-top: 16px;
 }
+.event{
+  display: flex;
+  text-align: center;
+  margin: 0  auto;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
@@ -206,6 +213,7 @@ header {
   .techember-text h1 {
    
     font-size: 48px;
+    /* margin-bottom: 20px; */
    
   }
   .header-text {
@@ -224,5 +232,27 @@ header {
   }
   .progress-bar{
     margin-top: 30px;
+  }
+  .tech-paragraph {
+    color: var(--offwhite);
+    font-family: var(--primary-font);
+    margin-top: -20px;
+  }
+  .techember-text .join-text {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  .event{
+    display: inline-block;
+    /* flex-direction: column; */
+    /* background-color: red; */
+  }
+  
+  .event span{
+    display: none;
+  }
+  .march{
+    margin-top: -10px;
   }
 }

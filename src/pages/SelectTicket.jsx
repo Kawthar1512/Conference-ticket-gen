@@ -49,8 +49,8 @@ function StepOne() {
                   Join us for an unforgettable experience at [Event Name]!
                   Secure your spot now.
                 </p>
-                <p>
-                  📍[Event Location] &nbsp; || &nbsp; March 15, 2025 | 7:00 PM
+                <p className="event">
+                  <p>📍[Event Location] &nbsp;</p> <p  className="march"><span>||</span> &nbsp; March 15, 2025 | 7:00 PM</p> 
                 </p>
               </div>
             </div>
