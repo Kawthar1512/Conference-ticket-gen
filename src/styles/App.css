@@ -63,7 +63,7 @@ b {
 
 .button {
     height: 48px;
-    width: 100%;
+    width: 45%;
     border: 1px solid rgba(36, 160, 181, 1);
     background-color: transparent;
     color: rgba(36, 160, 181, 1);
