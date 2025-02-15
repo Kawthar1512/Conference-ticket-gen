@@ -123,9 +123,7 @@ label {
   color: var(--white);
   width: 100%;
 }
-.email-input::placeholder {
-  color: var(--white);
-}
+
 textarea {
   width: 100%;
   background: transparent;
@@ -157,4 +155,26 @@ textarea::placeholder {
   color: var(--white);
   outline: none;
   border: none;
+}
+@media only screen and (max-width: 768px) {
+
+  .photocontainer {
+    background-color: transparent;
+
+  }
+
+.drag-photo {
+  position: absolute;
+
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  color: var(--offwhite);
+}
+.step2 {
+  margin-top: -20px;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  color: var(--offwhite);
+}
 }
