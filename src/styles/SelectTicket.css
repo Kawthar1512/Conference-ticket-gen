@@ -7,6 +7,7 @@
   padding: 48px;
   margin: 30px auto;
   font-family: var(--primary-font);
+  
 }
 header {
   margin-top: 2px;
@@ -149,7 +150,6 @@ header {
   font-family: var(--primary-font);
 }
 
-
 .cancel-btn {
   border: 1px solid var(--color2);
   background: transparent;
@@ -173,22 +173,16 @@ header {
   justify-content: space-around;
   margin-top: 16px;
 }
-.event{
+.event {
   display: flex;
   text-align: center;
-  margin: 0  auto;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
 }
 
-
-
-
 @media only screen and (max-width: 768px) {
-  .container {
-    box-sizing: border-box;
-  }
-
+  
   .ticket-boxes {
     flex-direction: column;
     box-sizing: border-box;
@@ -211,26 +205,20 @@ header {
     margin-bottom: 16px;
   }
   .techember-text h1 {
-   
     font-size: 48px;
     /* margin-bottom: 20px; */
-   
   }
   .header-text {
     flex-direction: column;
-   
   }
   .step1 {
     margin-top: -20px;
-    
   }
   .progress-container {
-    
     margin-top: 1000px;
     background-color: red;
-  
   }
-  .progress-bar{
+  .progress-bar {
     margin-top: 30px;
   }
   .tech-paragraph {
@@ -243,16 +231,21 @@ header {
     margin: 0 auto;
     font-size: 14px;
   }
-  .event{
+  .event {
     display: inline-block;
     /* flex-direction: column; */
     /* background-color: red; */
   }
-  
-  .event span{
+
+  .event span {
     display: none;
   }
-  .march{
+  .march {
     margin-top: -10px;
   }
+  .container {
+    box-sizing: border-box;
+   
+  }
+
 }

@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import './stepOne.css'
 import "../styles/SelectTicket.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
