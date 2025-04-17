@@ -63,7 +63,7 @@ b {
 
 .button {
     height: 48px;
-    width: 45%;
+    width: 50%;
     border: 1px solid rgba(36, 160, 181, 1);
     background-color: transparent;
     color: rgba(36, 160, 181, 1);
@@ -165,5 +165,8 @@ opacity: 0.4;
     .page-wrapper > header .progress-bar {
         width: 93%;
        
+    }
+    .button{
+        width: 100%;
     }
 }
