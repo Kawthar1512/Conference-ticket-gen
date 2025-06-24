@@ -1,0 +1,126 @@
+
+.homeDiv{
+    text-align: center;
+    margin-top: 60px;
+}
+.buyLink{
+    text-align: center;
+
+    text-decoration: none;
+    border: 1px solid rgb(90, 85, 85);
+    padding: 15px;
+    border-radius: 40px;
+    background: rgb(240, 235, 235);
+    color: rgb(233, 61, 218);
+    font-weight: bold;
+    text-transform: uppercase;
+    /* font-family: var(--primary-font); */
+}
+.centerDiv{
+    border: 0.2px solid rgb(88, 54, 54);
+    width: 73%;
+    height: 750px;
+    margin: 10px auto;
+    padding: 20px;
+    /* background-color: #0e0e0e4b; Dark background */
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 100px 100px; /* Size of the grid squares */
+    
+    
+  }
+  .contentH1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-family: var(--RoadRage);
+  }
+  .contentH1 span{
+    color: rgb(198, 99, 190);
+  }
+  .join{
+    color: rgb(180, 176, 176);
+  }
+  .date{
+    color: rgb(180, 176, 176);
+    margin-bottom: -5px;
+  }
+  .linkDiv{
+    text-align: center;
+    margin-top: 60px;
+    
+  }
+  .card img{
+    width:70%;
+    height: 140px;
+    margin-top: 20px;
+  }
+  .card{
+    background: rgba(32, 32, 32, 0.701);
+    border-top: 0.5px solid rgb(194, 189, 189);
+    border-radius: 15px;
+    /* border-color: white; */
+    /* border: 0.5px solid rgb(207, 203, 203); */
+    /* width: 200%; */
+    height: 170px;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 15px;
+    
+    /* margin-top: ; */
+  }
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.cardText{
+  margin-left: 20px;
+  margin-top: 13px;
+}
+.card1{
+  
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  overflow: hidden;
+  transform: perspective(800px) rotateY(-50deg);
+  margin-right: 20px;
+
+  /* width: 70%; */
+}
+.card2{
+  margin-top: -25px;
+  height: 220px;
+  width: 50%;
+  
+  /* padding: 0px 40px; */
+}
+.card3{
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  overflow: hidden;
+  transform: perspective(800px) rotateY(50deg);
+  margin-left: 30px;
+}
+.card a{
+  color: white;
+  font-size: 12px;
+ 
+ 
+}
+.full{
+  font-size: 12px;
+  color: rgb(245, 163, 245);
+}
+.dis{
+  margin-right: 10px;
+
+
+}
+.card2 img{
+  height: 170px;
+}
+.card2 .links{
+  margin-top: 60px;
+}

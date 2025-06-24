@@ -1,11 +1,12 @@
 .container {
   width: 40%;
-  border: 1px solid var(--color1);
-  background-color: #041e23;
+    border: 1px solid rgb(90, 85, 85);
+  /* background-color: #041e23; */
+  background-color: inherit;
   color: var(--white);
   border-radius: 40px;
-  padding: 48px;
-  margin: 30px auto;
+  padding: 2px;
+  margin: 10px auto;
   font-family: var(--primary-font);
   
 }
@@ -20,7 +21,7 @@ header {
 }
 .ticket-selection-text {
   font-family: var(--Jeju);
-  font-size: 32px;
+  font-size: 20px;
 }
 .step1 {
   margin-top: 40px;
@@ -48,8 +49,8 @@ header {
   margin-top: 30px;
 }
 .second-container {
-  border: 1px solid var(--color1);
-  background-color: #08252b;
+    border: 1px solid rgb(90, 85, 85);
+  background-color: inherit;
   padding: 30px;
   border-radius: 32px;
   box-sizing: border-box;
@@ -57,13 +58,8 @@ header {
 
 .event-details {
   border-radius: 32px;
-  background: radial-gradient(
-      103.64% 57.39% at 14.02% 32.06%,
-      rgba(36, 160, 181, 0.2) 0%,
-      rgba(36, 160, 181, 0) 100%
-    )
-    rgba(10, 12, 17, 0.1);
-  border: 1px solid var(--color1);
+  
+    border: 1px solid rgb(90, 85, 85);
   width: 90%;
   text-align: center;
   padding: 15px 24px;
@@ -101,8 +97,8 @@ header {
   margin-bottom: 30px;
 }
 .ticket-boxes {
-  border: 1px solid var(--color3);
-  background: #052228;
+    border: 1px solid rgb(90, 85, 85);
+  background: inherit;
   border-radius: 24px;
   display: flex;
   justify-content: space-around;
@@ -112,15 +108,15 @@ header {
 .ticket-type {
   width: 25%;
   background-color: transparent;
-  border: 1px solid #197686;
+    border: 1px solid rgb(90, 85, 85);
   border-radius: var(--small-radius);
   padding: var(--small-radius);
 }
 .ticket-type:focus {
-  background-color: #12464e;
+  background-color: gray;
 }
 .active {
-  background-color: #12464e;
+  background-color: gray;
 }
 .access {
   color: var(--offwhite);
@@ -151,9 +147,10 @@ header {
 }
 
 .cancel-btn {
-  border: 1px solid var(--color2);
   background: transparent;
   color: var(--color2);
+      border: 1px solid rgb(90, 85, 85);
+
   text-align: center;
   /* align-items: center; */
   /* margin-right: ; */
@@ -212,7 +209,7 @@ header {
     flex-direction: column;
   }
   .step1 {
-    margin-top: -20px;
+    margin-top: -600px;
   }
   .progress-container {
     margin-top: 1000px;

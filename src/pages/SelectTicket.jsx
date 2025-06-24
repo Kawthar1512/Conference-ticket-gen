@@ -31,16 +31,16 @@ function StepOne() {
         <header>
           <div className="header-text">
             <p className="ticket-selection-text">Ticket Selection</p>
-            <p className="step1">Step 1/3</p>
+            {/* <p className="step1">Step 1/3</p> */}
           </div>
-          <div className="progress-container">
-            <div className="progress-bar"></div>
-          </div>
+         {/* <div className="progress-container">  */}
+          {/* <div className="progress-bar"></div>  */}
+          {/* </div>  */}
         </header>
 
         <form onSubmit={formik.handleSubmit} className="second-container">
           {/* //first div */}
-          <div className="event-details">
+          {/* <div className="event-details">
             <div className="techember-text">
               <h1>Techember Fest "25</h1>
               <div className="tech-paragraph">
@@ -52,10 +52,10 @@ function StepOne() {
                   <p>📍[Event Location] &nbsp;</p> <p  className="march"><span>||</span> &nbsp; March 15, 2025 | 7:00 PM</p> 
                 </p>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
 
-          <div className="empty-progress-bar"></div>
+          {/* <div className="empty-progress-bar"></div> */}
 
           <div className="ticket-selection">
             <p>Select Ticket Type:</p>
