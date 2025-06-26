@@ -9,20 +9,20 @@ export default function Nav() {
   return (
     <>
       <nav>
-        <div className="ticz-box">
+        {/* <div className="ticz-box">
           <div className="navImageDiv">
             <img src={svgImage} alt="" className="navImage" />
           </div>
           <img src={ticz} alt="" className="ticz-text"/>
-        </div>
+        </div> */}
         {/* this is for the nav links  */}
-        <div className="nav-links">
+        {/* <div className="nav-links">
           <a href="" className="first-link">Events</a>
           <a href="" className="second-link">My Tickets</a>
           <Link to="/about" className="third-link">About Project</Link>
 
         </div>
-        <a href="" className="my-ticket-btn">MY TICKETS <img src={arrow}alt="" /></a>
+        <a href="" className="my-ticket-btn">MY TICKETS <img src={arrow}alt="" /></a> */}
 
       </nav>
     </>

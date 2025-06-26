@@ -5,6 +5,8 @@ import * as Yup from "yup";
 import { useLocalStorage } from "./../hooks/useLocalStorage";
 import { useNavigate } from "react-router";
 import Button from "./../components/Button";
+import svgImage from "../assets/Vector (1).svg";
+
 
 function StepOne() {
   const [ticketInfo, setTicketInfo] = useLocalStorage("ticketInfo", {});
@@ -27,36 +29,26 @@ function StepOne() {
 
   return (
     <>
+    <div className="gridLines">
+        <nav>
+       <div className="ticz-box">
+                <div className="navImageDiv">
+                  <img src={svgImage} alt="" className="navImage" />
+                </div>
+                
+                <p className="ticz-text">GenTix  </p>
+              </div>
+          <a href="" className="first-link">Events</a>
+          <a href="" className="second-link">My Tickets</a>
+          <a href="" className="second-link">About Project</a>
+
+
+      </nav>
       <main className="container">
-        <header>
-          <div className="header-text">
-            <p className="ticket-selection-text">Ticket Selection</p>
-            {/* <p className="step1">Step 1/3</p> */}
-          </div>
-         {/* <div className="progress-container">  */}
-          {/* <div className="progress-bar"></div>  */}
-          {/* </div>  */}
-        </header>
+     
 
         <form onSubmit={formik.handleSubmit} className="second-container">
-          {/* //first div */}
-          {/* <div className="event-details">
-            <div className="techember-text">
-              <h1>Techember Fest "25</h1>
-              <div className="tech-paragraph">
-                <p className="join-text">
-                  Join us for an unforgettable experience at [Event Name]!
-                  Secure your spot now.
-                </p>
-                <p className="event">
-                  <p>📍[Event Location] &nbsp;</p> <p  className="march"><span>||</span> &nbsp; March 15, 2025 | 7:00 PM</p> 
-                </p>
-              </div>
-            </div> */}
-          {/* </div> */}
-
-          {/* <div className="empty-progress-bar"></div> */}
-
+          
           <div className="ticket-selection">
             <p>Select Ticket Type:</p>
 
@@ -145,6 +137,7 @@ function StepOne() {
           </div>
         </form>
       </main>
+      </div>
     </>
   );
 }
