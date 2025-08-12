@@ -54,9 +54,6 @@
   padding: 30px;
   border-radius: 32px;
   box-sizing: border-box;
-  /* margin-top: 10px; */
-  /* border: none; */
-  /* background-color: red; */
 }
 header {
   margin-top: 2px;
@@ -67,9 +64,11 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.ticket-selection-text {
+.type {
   font-family: var(--Jeju);
   font-size: 20px;
+  margin-left: -270px;
+  
 }
 .step1 {
   margin-top: 40px;
@@ -183,7 +182,6 @@ header {
   color: var(--white);
   outline: none;
   padding: var(--small-radius);
-  /* padding-right: 20px; */
   font-size: 16px;
   font-family: var(--primary-font);
 }
@@ -194,14 +192,15 @@ header {
       border: 1px solid rgb(90, 85, 85);
 
   text-align: center;
-  /* align-items: center; */
-  /* margin-right: ; */
+
 }
 .next-btn {
-  background-color: var(--color2);
   color: var(--white);
   outline: none;
   border: none;
+    background-color: rgb(88, 54, 54);
+    background-color: red;
+
 }
 .radio {
   display: none;
@@ -238,10 +237,15 @@ header {
     flex-direction: column;
     margin-top: 16px;
   }
+  .cancel{
+    background: inherit;
+    padding: 40px;
+  }
 
   .btn-container button {
     width: 100%;
     margin-bottom: 16px;
+    background-color: red;
   }
   .techember-text h1 {
     font-size: 48px;
@@ -272,8 +276,7 @@ header {
   }
   .event {
     display: inline-block;
-    /* flex-direction: column; */
-    /* background-color: red; */
+  
   }
 
   .event span {

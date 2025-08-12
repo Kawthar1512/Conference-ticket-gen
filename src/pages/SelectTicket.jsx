@@ -50,7 +50,7 @@ function StepOne() {
         <form onSubmit={formik.handleSubmit} className="second-container">
           
           <div className="ticket-selection">
-            <p>Select Ticket Type:</p>
+            <p className="type">Select Ticket Type:</p>
 
             <div className="ticket-boxes">
               {/* first radio button */}
@@ -116,7 +116,7 @@ function StepOne() {
           </div>
           {/* number of ticket */}
           <div className="number-of-tickets">
-            <p>Number of tickets</p>
+            <p className="type">Number of tickets</p>
             <select
               onChange={formik.handleChange}
               defaultValue={formik.values.numOfTickets}
@@ -132,8 +132,10 @@ function StepOne() {
           </div>
           {/* for-buttons */}
           <div className="btn-container">
-            <Button>Cancel</Button>
-            <Button type="submit" contained>Next</Button>
+          <button className="cancel">Cancel</button>
+          <button className="submit-btn" type="submit">Submit</button>
+            {/* <Button className="help" >Cancel</Button>
+            <Button type="submit" contained>Next</Button> */}
           </div>
         </form>
       </main>
