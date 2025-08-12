@@ -18,7 +18,7 @@ export default function HomeNav() {
         </div>
         {/* this is for the nav links  */}
         <div className="nav-links">
-          <a href="" className="first-link">Program</a>
+          <a href="" className="first-link">Home</a>
           <a href="" className="second-link">Price</a>
           <Link to="/about" className="third-link">Speakers</Link>
            <a href="" className="second-link">Sponsors</a>

@@ -80,27 +80,35 @@
   margin-left: 20px;
   margin-top: 13px;
 }
+.card1 a{
+  margin-right: 20px;
+  /* margin-top: 500px;  */
+  /* background: #000; */
+}
 .card1{
   
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   overflow: hidden;
-  transform: perspective(800px) rotateY(-50deg);
-  margin-right: 20px;
+  transform: perspective(1400px) rotateY(-45deg);
+  margin-right: 10px;
 
-  /* width: 70%; */
+  width: 35%;
+    height: 180px;
+
 }
+
 .card2{
   margin-top: -25px;
   height: 220px;
-  width: 50%;
-  
-  /* padding: 0px 40px; */
+  width: 30%;
 }
 .card3{
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   overflow: hidden;
-  transform: perspective(800px) rotateY(50deg);
-  margin-left: 30px;
+  transform: perspective(800px) rotateY(45deg);
+  margin-left: 10px;
+    width: 30%;
+
 }
 .card a{
   color: white;
@@ -109,17 +117,33 @@
  
 }
 .full{
-  font-size: 12px;
+  font-size: 14px;
   color: rgb(245, 163, 245);
 }
 .dis{
-  margin-right: 10px;
-
+  margin-right: 20px;
 
 }
+.minn{
+  margin-top: 54px;
+}
+.card1 img{
+  width: 55%;
+  height: 150px;
+}
 .card2 img{
-  height: 170px;
+  width: 80%;
+  height: 180px;
+}
+.card3 img{
+  width: 60%;
+  height: 140px;
+  /* object-fit: cover; */
 }
 .card2 .links{
   margin-top: 60px;
+}
+.dot{
+  width: 100px;
+  font-size: 12px;
 }
