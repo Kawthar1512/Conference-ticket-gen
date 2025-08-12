@@ -21,6 +21,10 @@ export default function HomeNav() {
           <a href="" className="first-link">Program</a>
           <a href="" className="second-link">Price</a>
           <Link to="/about" className="third-link">Speakers</Link>
+           <a href="" className="second-link">Sponsors</a>
+          <a href="" className="second-link">Contact us</a>
+
+
 
         </div>
         <a href="" className="my-ticket-btn">Log in</a>
