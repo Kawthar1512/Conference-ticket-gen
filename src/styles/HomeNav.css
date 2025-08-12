@@ -11,9 +11,10 @@ max-width: 100%;
   justify-content: space-around;
   display: flex;
   justify-content: space-between;
-  margin: -10px auto;
   overflow: hidden;
   background: #ecd5eb46;
+  align-self: center;
+  justify-self: center;
   padding: 10px 50px;
 }
 
@@ -34,6 +35,10 @@ max-width: 100%;
 }
 .ticz-box {
   display: flex;
+  align-items: center;
+  align-self: center;
+  justify-self:center;
+  /* margin-top: 5px; */
 }
 .nav-links a {
   margin-left: 10px;
@@ -55,7 +60,7 @@ max-width: 100%;
 }
 .ticz-text {
   /* width: 44px; */
-  margin-top: 5px;
+  margin-top: 16px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-left: 7px;
   font-weight: bolder;

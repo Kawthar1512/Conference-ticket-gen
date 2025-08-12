@@ -3,7 +3,6 @@ import guy from "../assets/guy.png";
 import guy2 from "../assets/man4.png";
 import guy3 from "../assets/dim.png";
 
-
 import { Link } from "react-router-dom";
 function HomeContents() {
   return (
@@ -33,10 +32,8 @@ function HomeContents() {
               <p className="full">#Designer</p>
               <p>• Consistency</p>
               <div className="minn">
-              <a href="Discord" >
-                Discord
-              </a>
-              <a href="LinkedIn">LinkedIn</a>
+                <a href="Discord">Discord</a>
+                <a href="LinkedIn">LinkedIn</a>
               </div>
             </div>
           </div>
